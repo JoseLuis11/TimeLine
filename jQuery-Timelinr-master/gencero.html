@@ -1,0 +1,80 @@
+<!doctype html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="author" content="Made with ❤ by Jorge Epuñan - @csslab">
+	
+	<title>jQuery Timelinr - Dando vida al tiempo</title>
+	<link rel="stylesheet" href="css/style.css" media="screen" />
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="js/jquery.timelinr-0.9.6.js"></script>
+	<script>
+		$(function(){
+			$().timelinr({
+				arrowKeys: 'true'
+			})
+		});
+	</script>
+</head>
+
+<body>
+	
+	<div id="timeline">
+		<ul id="dates">
+			<li><a href="#G0">G0</a></li>
+			<li><a href="#5ka.C.">a.C.</a></li>
+			<li><a href="#1642">1642</a></li>
+			<li><a href="#1694">1694</a></li>
+			<li><a href="#1822">1822</a></li>
+			<li><a href="#1880">1880</a></li>
+			<li><a href="#1941">1941</a></li>
+		</ul>
+		<ul id="issues">
+			<li id="G0">
+				<h1>Inicio de la generación cero</h1>
+			</li>
+			<li id="5ka.C.">
+				<img src="images/1.png" width="256" height="256" />
+				<h1>5000 a.C.</h1>
+				<p>Tuvo aparición el Ábaco, inventado por la antigua civilización egipcia (utilizado en la Edad Media por mercaderes árabes y europeos).
+</p>
+			</li>
+			<li id="1642">
+				<img src="images/2.jpg" width="256" height="256" />
+				<h1>1642</h1>
+				<p>Blaise Pascal fabrica la primer máquina sumadora de la historia, la Pascalina (precursora de las calculadoras actuales).</p>
+			</li>
+			<li id="1694">
+				<img src="images/3.jpg" width="256" height="256" />
+				<h1>1694</h1>
+				<p>Sobresale la creación de Gottfried Wilhelm von Leibniz la máquina de multiplicar (1694).</p>
+			</li>
+			<li id="1822">
+				<img src="images/4.jpg" width="256" height="256" />
+				<h1>1822</h1>
+				<p>Charles P. Babbage creó la máquina diferencial y analítica, la primera era capaz de calcular logaritmos con decimales (pero no fue terminada). La segunda tenía un diseño basado en tarjetas perforadas.</p>
+			</li>
+			<li id="1880">
+				<img src="images/5.gif" width="256" height="256" />
+				<h1>1880</h1>
+				<p>Herman Hollerith tiene la oportunidad de apoyar en el censo estadounidense con una máquina estadística de fichas perforadas.</p>
+			</li>
+			<li id="1941">
+				<img src="images/6.jpg" width="256" height="256" />
+				<h1>1941</h1>
+				<p>El Dr.  John Atanasoff y el físico Clifford Berry trabajan en la construcción de la máquina ABC misma que podía realizar un trabajo a la vez y se limitaba a la solución de problemas matemáticos. No obstante, poseía muchas de las características de las máquinas que la sucedieron.
+</p>
+			</li>
+		</ul>
+		<div id="grad_left"></div>
+		<div id="grad_right"></div>
+		<a href="#" id="next">+</a>
+		<a href="#" id="prev">-</a>
+	</div>
+	
+	<h1>CSSLab.cl - jQuery Timelinr - Horizontal </h1>
+	<h2>&copy; 2013 CSSLab.cl</h2>
+
+</body>
+</html>

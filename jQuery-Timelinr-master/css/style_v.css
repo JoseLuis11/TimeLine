@@ -75,7 +75,6 @@ h1,h2,h4,h5,h6 {
 		#issues {
 			width: 400px;
 			height: 600px;
-			overflow: hidden;
 			float: left;
 		}	
 			#issues li {

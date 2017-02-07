@@ -41,6 +41,10 @@ h1,h2,h4,h5,h6 {
 	margin-bottom: 20px;
 }
 
+	#primera{
+		margin-left : 1em;
+	}
+
 	#timeline {
 		width: 800px;
 		height: 350px;
@@ -73,12 +77,12 @@ h1,h2,h4,h5,h6 {
 		
 		#issues {
 			width: 800px;
-			height: 350px;
+			height: 1000px;
 			overflow: hidden;
 		}	
 			#issues li {
 				width: 800px;
-				height: 350px;
+				height: 1000px;
 				list-style: none;
 				float: left;
 			}
